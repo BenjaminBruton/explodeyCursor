@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DM+Sans&display=swap');
+
+body {
+    background-color: #A19300;
+}
+
+.border-heading {
+    border: 3px solid #5E24FF;
+    margin: 40px;
+    text-align: center;
+    color: #5E24FF;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+
+.border-heading::before {
+    content: "💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥"
+}
+
+.border-heading::after {
+    content: "💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥"
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #0831A1;
+    border-radius: 5px;
+    background-color: #C518ED;
+}
+
+form:hover {
+    box-shadow: 6px 6px 6px;
+    background: white;
+}
+
+.form-button {
+    background-color: #0831A1;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.labels {
+    padding: 10px;
+    font-weight: bold;
+    color: #0831A1;
+    text-decoration: underline;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input:hover {
+    box-shadow: 6px 6px 6px;
+    background-color: #C518ED;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💥</text></svg>") 16 0,auto;
+
+    
+}
+
+input:hover::placeholder {
+    color:#F0E518;
+    /* font-weight: bold; */
+    font-family: 'Creepster', cursive;
+}
