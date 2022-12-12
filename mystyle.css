@@ -42,7 +42,7 @@ form:hover {
 }
 
 .form-button {
-    background-color: #0831A1;
+    background-color: #9204e4;
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -57,7 +57,7 @@ form:hover {
 .labels {
     padding: 10px;
     font-weight: bold;
-    color: #0831A1;
+    color: #0da514;
     text-decoration: underline;
 }
 
